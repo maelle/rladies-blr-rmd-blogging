@@ -22,6 +22,8 @@ If you start using distill for your website...
 
 | Website | Source |
 |---|---|
+|[Frie Preu](https://frie.codes/) (distill + postcards)|[<i class='fab fa-fw fa-gitlab'>](https://gitlab.com/friep/blog)|
+|[Rob's Notes](https://robcoleman.ca/) (distill + postcards)|[<i class='fab fa-fw fa-github'>](https://github.com/colemanrob/robcoleman.ca)|
 |[Teaching in Production](https://rstudio-education.github.io/teaching-in-production/)|[<i class='fab fa-fw fa-github'>](https://github.com/rstudio-education/teaching-in-production)|
 |[Scholarly Communication Analytics](https://subugoe.github.io/scholcomm_analytics/)| [<i class='fab fa-fw fa-github'>](https://github.com/subugoe/scholcomm_analytics) |
 | [RStudio AI Blog](https://blogs.rstudio.com/ai/) | [<i class='fab fa-fw fa-github'>](https://github.com/rstudio/ai-blog) |
