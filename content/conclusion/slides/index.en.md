@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: cbbfab61377da0bd
+rmd_hash: 8d47f7c91a2e34ea
 
 ---
 
@@ -70,6 +70,10 @@ Have fun!
 If you're worried about blogging, find a blogging buddy to read your drafts?
 
 Make efforts but don't be perfectionist.
+
+------------------------------------------------------------------------
+
+<script async class="speakerdeck-embed" data-id="5106edda6ee44324b5fdffd82e15d249" data-ratio="1.8" src="https://speakerdeck.com/assets/embed.js"></script>
 
 ------------------------------------------------------------------------
 
