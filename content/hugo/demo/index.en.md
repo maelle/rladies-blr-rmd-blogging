@@ -4,31 +4,35 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: 68854c9c82f4be2d
+rmd_hash: aa58be77e55f9125
 
 ---
 
+Mostly following [Alison Hill's blogdown tutorial](https://alison.rbind.io/post/new-year-new-blogdown/) but with a different theme by... Alison Hill. :grin:
+
 -   install the remotes package, `install.packages("remotes)`
 
--   install the hugodown package from my fork if you are brave, [`remotes::install_github("maelle/hugodown@vanilla")`](https://remotes.r-lib.org/reference/install_github.html)
+-   install the blogdown package [`remotes::install_github("rstudio/blogdown")`](https://remotes.r-lib.org/reference/install_github.html)
 
--   [`hugodown::hugo_install('0.78.2')`](https://rdrr.io/pkg/hugodown/man/hugo_install.html)
+-   create a new empty RStudio project
 
--   [`hugodown::create_site_vanilla()`](https://rdrr.io/pkg/hugodown/man/create_site_vanilla.html). Be happy to see everything happening automatically :sparkles:
+-   [`blogdown::new_site(theme = "apreshill/blogophonic")`](https://rdrr.io/pkg/blogdown/man/hugo_cmd.html)
 
--   [`hugodown::hugo_start(render_to_disk = TRUE)`](https://rdrr.io/pkg/hugodown/man/hugo_start.html), open localhost in the browser.
+-   [`blogdown::serve_site()`](https://rdrr.io/pkg/blogdown/man/serve_site.html)
 
--   Change homepage
+-   [`blogdown::new_post(title = "Hi Hugo", ext = '.Rmarkdown', subdir = "blog")`](https://rdrr.io/pkg/blogdown/man/hugo_cmd.html)
 
--   [`hugodown::use_post("post/new-rmd-post")`](https://rdrr.io/pkg/hugodown/man/use_post.html), knit, see post.
+-   write and knit
 
--   say there will probably be other themes later. show [Hugo theme gallery](https://themes.gohugo.io/) and how I would choose themes.
+-   [`blogdown::check_site()`](https://rdrr.io/pkg/blogdown/man/check_site.html)
 
--   add [Twitter metadata](https://gohugo.io/templates/internal/#twitter-cards)
+-   [`usethis::use_git()`](https://usethis.r-lib.org/reference/use_git.html)
 
--   tweak one CSS thing in custom.css
+-   in shell, move master branch to main. `git branch -m main master`
 
--   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html), [`hugodown::use_netlify_toml()`](https://rdrr.io/pkg/hugodown/man/use_netlify_toml.html), go to Netlify interface.
+-   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html)
 
--   add URL to config
+-   Set up Netlify
+
+-   Show Hugo theme gallery <a href="https://themes.gohugo.io/" class="uri">https://themes.gohugo.io/</a>
 

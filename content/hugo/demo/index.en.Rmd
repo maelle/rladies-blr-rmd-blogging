@@ -6,26 +6,32 @@ slides: true
 output: hugodown::md_document
 ---
 
+Mostly following [Alison Hill's blogdown tutorial](https://alison.rbind.io/post/new-year-new-blogdown/) but with a different theme by... Alison Hill. :grin:
+
 - install the remotes package, `install.packages("remotes)`
 
-- install the hugodown package from my fork if you are brave, `remotes::install_github("maelle/hugodown@vanilla")`
+- install the blogdown package `remotes::install_github("rstudio/blogdown")`
 
-- `hugodown::hugo_install('0.78.2')`
+- create a new empty RStudio project
 
-- `hugodown::create_site_vanilla()`. Be happy to see everything happening automatically :sparkles:
+- `blogdown::new_site(theme = "apreshill/blogophonic")`
 
-- `hugodown::hugo_start(render_to_disk = TRUE)`, open localhost in the browser.
+- `blogdown::serve_site()`
 
-- Change homepage
+- look where things live e.g. data/ vs content/.
 
-- `hugodown::use_post("post/new-rmd-post")`, knit, see post.
+- `blogdown::new_post(title = "Hi Hugo", ext = '.Rmarkdown', subdir = "blog")`
 
-- say there will probably be other themes later. show [Hugo theme gallery](https://themes.gohugo.io/) and how I would choose themes.
+- write and knit
 
-- add [Twitter metadata](https://gohugo.io/templates/internal/#twitter-cards)
+- `blogdown::check_site()`
 
-- tweak one CSS thing in custom.css
+- `usethis::use_git()`
 
-- `usethis::use_github()`, `hugodown::use_netlify_toml()`, go to Netlify interface.
+- in shell, move master branch to main. `git branch -m main master`
 
-- add URL to config
+- `usethis::use_github()`
+
+- Set up Netlify
+
+- Show Hugo theme gallery https://themes.gohugo.io/

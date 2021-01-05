@@ -1571,46 +1571,16 @@ navbar:
       href: https://github.com/maelle
 ```
 
-## hugodown post body
+## .Rprofile for blogdown
 
-````markdown
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Nice subsection
-
-[A link](https://masalmon.eu)
-
-Some inline code, `crul::ok()`.
-
-```{r eval=FALSE}
-usethis::use_git()
-ggplot(mtcars)
-plot(1:19)
-a <- TRUE
-```
-
-## Plot
-
-```{r plot-hist}
-hist(rnorm(10000))
-```
-
-
-````
-
-## Twitter metadata
-
-```html
-{{ template "_internal/twitter_cards.html" . }}
-```
-
-```yaml
-params:
-  description: Text about my cool site
-  images:
-  - https://github.com/maelle.png
+```r
+options(
+  # to automatically serve the site on RStudio startup, set this option to TRUE
+  blogdown.serve_site.startup = FALSE,
+  # to disable knitting Rmd files on save, set this option to FALSE
+  blogdown.knit.on_save = FALSE,
+  blogdown.author = "Maëlle Salmon",
+  blogdown.ext = ".Rmarkdown",
+  blogdown.subdir = "blog"
+)
 ```
