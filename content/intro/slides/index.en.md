@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 64d6630e22791164
+rmd_hash: 4f0f2861c9022e81
 
 ---
 
@@ -26,10 +26,6 @@ I am a proud R-Lady. :purple_heart:
 :house: <a href="https://masalmon.eu" class="uri">https://masalmon.eu</a>
 
 {{% /fragment %}}
-
-------------------------------------------------------------------------
-
-{{< tweet 974336097865125888 >}}
 
 ------------------------------------------------------------------------
 
@@ -79,6 +75,15 @@ Personal website... But also
 -   etc.
 
 Useful skill!
+
+------------------------------------------------------------------------
+
+Why create YOUR website/blog
+============================
+
+In the words of Alison Hill, [set your website intentions](https://alison.rbind.io/post/new-year-new-blogdown/#step-0-set-your-intentions)!
+
+Also note your website needs and thus your website will change with time!
 
 ------------------------------------------------------------------------
 
@@ -161,7 +166,7 @@ Let's go
 
 -   {{% fragment %}}distill{{% /fragment %}}
 
--   {{% fragment %}}Hugo&hugodown (&blogdown){{% /fragment %}}
+-   {{% fragment %}}Hugo&blogdown (&hugodown){{% /fragment %}}
 
 -   {{% fragment %}}Reproducibility{{% /fragment %}}
 
@@ -174,5 +179,5 @@ Let's go
 We'll start with a tour of the course website
 =============================================
 
-<a href="https://tiny.cc/rmd-blogging-jozi" class="uri">https://tiny.cc/rmd-blogging-jozi</a>
+<a href="https://tiny.cc/rmd-blogging-blr" class="uri">https://tiny.cc/rmd-blogging-blr</a>
 
