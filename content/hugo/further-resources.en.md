@@ -7,6 +7,7 @@ weight: 7
 ## Read the manual :wink:
 
 A bit hard to say about blogdown because its book is outdated.
+Follow the [RStudio blog](https://blog.rstudio.com/) to read when blogdown and its books are officially updated.
 
 Read everything Alison Hill wrote!
 
