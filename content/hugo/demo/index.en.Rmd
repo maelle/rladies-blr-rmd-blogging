@@ -1,0 +1,31 @@
+---
+title: Notes from the demo
+menuTitle: Demo
+weight: 5
+slides: true
+output: hugodown::md_document
+---
+
+- install the remotes package, `install.packages("remotes)`
+
+- install the hugodown package from my fork if you are brave, `remotes::install_github("maelle/hugodown@vanilla")`
+
+- `hugodown::hugo_install('0.78.2')`
+
+- `hugodown::create_site_vanilla()`. Be happy to see everything happening automatically :sparkles:
+
+- `hugodown::hugo_start(render_to_disk = TRUE)`, open localhost in the browser.
+
+- Change homepage
+
+- `hugodown::use_post("post/new-rmd-post")`, knit, see post.
+
+- say there will probably be other themes later. show [Hugo theme gallery](https://themes.gohugo.io/) and how I would choose themes.
+
+- add [Twitter metadata](https://gohugo.io/templates/internal/#twitter-cards)
+
+- tweak one CSS thing in custom.css
+
+- `usethis::use_github()`, `hugodown::use_netlify_toml()`, go to Netlify interface.
+
+- add URL to config
