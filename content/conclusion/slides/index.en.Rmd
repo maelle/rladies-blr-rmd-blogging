@@ -52,7 +52,7 @@ Does any of you want to say what they'd choose and why?
 
 * `yaml`, `commonmark` packages, etc.
 
-* Redirects! URLs are important. 404 page.
+* [Redirects](https://yihui.org/en/2017/11/301-redirect/)! URLs are important. 404 page.
 
 ---
 

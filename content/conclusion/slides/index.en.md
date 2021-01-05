@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 6c2a6313b2bdae4b
+rmd_hash: cbbfab61377da0bd
 
 ---
 
@@ -60,7 +60,7 @@ Change your mind?
 
 -   `yaml`, `commonmark` packages, etc.
 
--   Redirects! URLs are important. 404 page.
+-   [Redirects](https://yihui.org/en/2017/11/301-redirect/)! URLs are important. 404 page.
 
 ------------------------------------------------------------------------
 
