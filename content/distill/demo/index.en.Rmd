@@ -8,7 +8,7 @@ output: hugodown::md_document
 
 - show the RStudio IDE, ask whether anyone is unfamiliar with it.
 
-- install the distill package, `install.packages("distill")`
+- install the distill package, `remotes::install_github("rstudio/distill")`
 
 - create blog (from RStudio Create New Project, not `distill::create_blog()`).
 
@@ -61,3 +61,7 @@ output: hugodown::md_document
 - Other options for deployment (Netlify link to repo, [distill docs](https://rstudio.github.io/distill/publish_website.html))
 
 - add Twitter&GitHub
+
+- install the postcards package. `remotes::install_github("seankross/postcards")`
+
+- Follow Alison Hill's tutorial ["M-F-E-O: postcards + distill"]](https://alison.rbind.io/post/2020-12-22-postcards-distill/). `postcards::create_postcard("about.Rmd")`

@@ -4,15 +4,15 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: dca2798c69dc7335
+rmd_hash: 389833585f48b81e
 
 ---
 
 -   show the RStudio IDE, ask whether anyone is unfamiliar with it.
 
--   install the distill package, [`install.packages("distill")`](https://rdrr.io/r/utils/install.packages.html)
+-   install the distill package, [`remotes::install_github("rstudio/distill")`](https://remotes.r-lib.org/reference/install_github.html)
 
--   create blog (from RStudio Create New Project, not [`distill::create_blog()`](https://rdrr.io/pkg/distill/man/create_website.html)).
+-   create blog (from RStudio Create New Project, not [`distill::create_blog()`](https://pkgs.rstudio.com/distill//reference/create_website.html)).
 
 -   what's in the folder now?
 
@@ -36,7 +36,7 @@ rmd_hash: dca2798c69dc7335
 
 -   commit
 
--   add a post with [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html). knit, look what changed this time.
+-   add a post with [`distill::create_post()`](https://pkgs.rstudio.com/distill//reference/create_post.html). knit, look what changed this time.
 
 -   add references
 
@@ -50,7 +50,7 @@ rmd_hash: dca2798c69dc7335
 
 -   Netlify drag and drop.
 
--   [`distill::create_theme(name = "theme")`](https://rdrr.io/pkg/distill/man/create_theme.html).
+-   [`distill::create_theme(name = "theme")`](https://pkgs.rstudio.com/distill//reference/create_theme.html).
 
 -   other minimal style tweaks (link aspect). Introduce the web developer console.
 
@@ -63,4 +63,8 @@ rmd_hash: dca2798c69dc7335
 -   Other options for deployment (Netlify link to repo, [distill docs](https://rstudio.github.io/distill/publish_website.html))
 
 -   add Twitter&GitHub
+
+-   install the postcards package. [`remotes::install_github("seankross/postcards")`](https://remotes.r-lib.org/reference/install_github.html)
+
+-   Follow Alison Hill's tutorial \["M-F-E-O: postcards + distill"\]\](<a href="https://alison.rbind.io/post/2020-12-22-postcards-distill/" class="uri">https://alison.rbind.io/post/2020-12-22-postcards-distill/</a>). [`postcards::create_postcard("about.Rmd")`](https://rdrr.io/pkg/postcards/man/create_postcard.html)
 
