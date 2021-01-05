@@ -7,14 +7,14 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: 6b1814a65f6c9f0a
+rmd_hash: 6b3445f43e18c221
 
 ---
 
-Hugo and hugodown
-=================
+Hugo (blog/hugo)down
+====================
 
-A powerful static generator, a handy WIP minimal package
+A powerful static generator, usable with R Markdown.
 
 ------------------------------------------------------------------------
 
@@ -27,6 +27,21 @@ Only an .exe to install :tada:
 
 ------------------------------------------------------------------------
 
+[blogdown](https://github.com/rstudio/blogdown/)
+================================================
+
+[R :package:](https://github.com/rstudio/blogdown/)
+
+-   R Markdown output formats
+
+-   Handy helpers, possibility to create custom workflows to process your website as you see fit
+
+-   RStudio add-in to create posts
+
+Active development, many users and educators.
+
+------------------------------------------------------------------------
+
 [hugodown](https://hugodown.r-lib.org/)
 =======================================
 
@@ -36,7 +51,7 @@ Only an .exe to install :tada:
 
 -   Handy helpers
 
-Experimental but easier to start with in my opinion.
+Experimental. Markdown first. I use it for this website.
 
 ------------------------------------------------------------------------
 
@@ -47,7 +62,7 @@ Under the hood
 
 {{<mermaid align="left">}}
 graph LR;
-    A[Rmd] --> |"R ( hugodown :package:, </br> downlit :package:) </br> & Pandoc"| B{md}
+    A[Rmd] --> |"R ( blogdown/hugodown :package:) </br> & Pandoc"| B{md}
     B --> |"Hugo (Goldmark, Chroma)"| C[HTML]
 {{< /mermaid >}}
 
@@ -66,45 +81,6 @@ graph LR;
     B --> |"hugo build (locally or cloud)"| C[HTML]
 {{< /mermaid >}}
 
-------------------------------------------------------------------------
-
-No syntax highlighting :expressionless:
-
-<pre><code>ggplot2::ggplot()
-</code></pre>
-
-Chroma syntax highlighting :+1:
-
-```r
-ggplot2::ggplot()
-```
-
-downlit syntax highlighting :smiley:
-
-<div class="highlight">
-
-<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>ggplot2</span><span class='nf'>::</span><span class='nf'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='o'>(</span><span class='o'>)</span>
-</code></pre>
-
-</div>
-
-------------------------------------------------------------------------
-
-{{< figure src="/images/highlight.jpg" alt="A meme to explain why downlit is great" height="550" >}}
-
-Inspired by [Mara Averick](https://twitter.com/dataandme/status/1255510799273132032)
-
-------------------------------------------------------------------------
-
-hugodown syntax highlighting
-============================
-
--   downlit for R :tada:
-
--   Chroma for other languages :sparkles:
-
-------------------------------------------------------------------------
-
 :mountain_cableway: Time for a demo!
 
 [Notes on the course website](/hugo/demo/)
@@ -122,8 +98,25 @@ Scientific Rmd Blog Checklist
 
 ------------------------------------------------------------------------
 
-Sustainability
-==============
+Sustainability: blogdown
+========================
+
+Created by:
+
+<div class="highlight">
+
+Yihui Xie ), Christophe Dervieux ), Alison Presmanes Hill \[aut\] ()
+
+</div>
+
+Used for [Alison Hill's website](https://alison.rbind.io), in particular.
+
+[Active development](https://github.com/rstudio/blogdown/).
+
+------------------------------------------------------------------------
+
+Sustainability: hugodown
+========================
 
 Created by:
 
@@ -135,40 +128,27 @@ Hadley Wickham \[aut, cre\]
 
 Used for [tidyverse.org](https://tidyverse.org), in particular.
 
-[Active development](https://github.com/r-lib/hugodown/).
+[Off and on development](https://github.com/r-lib/hugodown/).
 
 ------------------------------------------------------------------------
 
 Limitations?
 ============
 
--   hugodown is a WIP minimal package.
+-   blogdown docs are outdated (book update planned). Markdown output not a first-class citizen yet.
 
--   the function I demo-ed is in my fork, see the main project for existing theme.
+-   hugodown is a minimal WIP package.
 
--   Hugo changes a lot (but hugodown helps protect your projects from that)
-
-------------------------------------------------------------------------
-
-What about blogdown?!
-=====================
-
-It recently got updated so it can work like hugodown (no old post building, pfiew).
-
-Many features! E.g. build.R and build2.R
-
-The blogdown book will be updated soon
+-   Hugo changes a lot (but both blogdown and hugodown protect your projects from that)
 
 ------------------------------------------------------------------------
 
-So blogdown or hugodown
-=======================
+So blogdown or hugodown?
+========================
 
--   Start with hugodown, minimal and less docs to read.
+blogdown is more mainstream, ultimately it will have more features and docs.
 
--   Follow the RStudio blog to know about blogdown updates.
-
--   Switch to blogdown if you need a more custom workflow? Or after its book update?
+hugodown is more for DIY minimal workflows.
 
 ------------------------------------------------------------------------
 

@@ -1,26 +1,36 @@
 ---
 menuTitle: Further resources
-title: More about Hugo & hugodown
+title: More about Hugo & blogdown & hugodown
 weight: 7
 ---
 
 ## Read the manual :wink:
 
-You can read the [whole hugodown docs](https://hugodown.r-lib.org/) and probably should especially as hugodown evolves.
+A bit hard to say about blogdown because its book is outdated.
+
+Read everything Alison Hill wrote!
+
+* [Up & running with blogdown in 2021](https://alison.rbind.io/post/new-year-new-blogdown/)
+
+* [A Spoonful of Hugo: How much Hugo do I need to know?](https://alison.rbind.io/post/2020-12-12-how-much-hugo/) (and other posts in the same series)
+
+* [Unbreak your blogdown site](https://alison.rbind.io/post/2020-12-27-blogdown-checks/)
 
 Also read the docs of the theme you choose.
 
 You might not need to read [Hugo docs](https://gohugo.io/documentation/), that are much longer, much more overwhelming: you mostly only need to read Hugo docs when you need to tweak or customize a theme.
 
+If you choose hugodown, you can read the [whole hugodown docs](https://hugodown.r-lib.org/) and probably should especially as hugodown evolves.
+
 ## Follow developments? :eyes:
 
-If you start using Hugo & hugodown for your website...
+If you start using Hugo for your website...
 
-* [Watch development on GitHub](https://help.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository) of hugodown, of the theme?
+* [Watch development on GitHub](https://help.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository) of blogdown / hugodown, of the theme
 
-* Subscribe to the [hugodown issues](https://github.com/r-lib/hugodown/issues) that are interesting to you?
+* Subscribe to the [blogdown issues](https://github.com/rstudio/blogdown/issues) that are interesting to you? E.g. [support downlit for syntax highlighting](https://github.com/rstudio/blogdown/issues/535)
 
-* Also keep an eye on what's happening for [blogdown](#another-r-package-blogdown-)!
+* Also keep an eye on what's happening for the package you are not using (blogdown or hugodown).
 
 ## Contributing guide for your website :pencil:
 
@@ -36,7 +46,7 @@ Collaborative website: even Hugo users might not know your website structure!
 
 * [RStudio community forum](https://community.rstudio.com/c/R-Markdown/10) (RMarkdown category)
 
-* [hugodown issue tracker](https://github.com/r-lib/hugodown/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+* [blogdown issue tracker](https://github.com/rstudio/blogdown) is clear about where to ask for help and where to give feedback.
 
 * If you start tweaking Hugo templates, [Hugo forum](https://discourse.gohugo.io/)
 
@@ -44,20 +54,9 @@ Collaborative website: even Hugo users might not know your website structure!
 
 {{< tweet 1329502762376306692 >}}
 
-* Browse the [gallery](https://themes.gohugo.io/). [Choose your theme wisely](https://masalmon.eu/2020/02/29/hugo-maintenance/#choose-your-theme-wisely-and-keep-in-touch). Use Hugo docs to create new site. Follow [hugodown configuration docs](https://hugodown.r-lib.org/articles/config.html).
+* Browse the [gallery](https://themes.gohugo.io/). [Choose your theme wisely](https://masalmon.eu/2020/02/29/hugo-maintenance/#choose-your-theme-wisely-and-keep-in-touch).
 
 * [Hire someone](/webdev/hire/)?
-
-## Another R package: blogdown :package:
-
-[blogdown](https://github.com/rstudio/blogdown) is an alternative to hugodown. 
-It might be better for your needs if you need something more complex than what hugodown provides: e.g. there are two special scripts build.R and build2.R for running arbitrary code before and after building your website.
-
-The comparison [hugodown vs blogdown](https://hugodown.r-lib.org/#compared-to-blogdown) is **outdated** as of blogdown new version.
-
-The [blogdown book](https://bookdown.org/yihui/blogdown/) will soon be updated. In the meantime read the package docs + its source code including its [changelog](https://github.com/rstudio/blogdown/blob/master/NEWS.md).
-
-Follow [RStudio blog](https://blog.rstudio.com/categories/r-markdown/).
 
 ## Hugo and CMS  :computer:
 
@@ -83,7 +82,7 @@ To give a less technical interface to a Hugo website, you could use a CMS, see f
 
 * [Lukas Burk posts about Hugo](https://blog.jemu.name/tags/hugo/)
 
-* [My Hugo posts on rOpenSci website](https://ropensci.org/tags/hugo/) and [on my blog](https://masalmon.eu/tags/hugo/)
+* [My Hugo posts on rOpenSci website](https://ropensci.org/tags/hugo/) and [on my blog](https://masalmon.eu/tags/hugo/) in particular [What to know before you adopt Hugo/blogdown](https://masalmon.eu/2020/02/29/hugo-maintenance/)
 
 * [Julia Evan's blog post "Switching to Hugo"](https://jvns.ca/blog/2016/10/09/switching-to-hugo/)
 
