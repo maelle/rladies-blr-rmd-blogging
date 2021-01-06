@@ -64,7 +64,7 @@ Make efforts but don't be perfectionist.
 
 ---
 
-```{=html}
+```{=markdown}
 <script async class="speakerdeck-embed" data-id="5106edda6ee44324b5fdffd82e15d249" data-ratio="1.8" src="https://speakerdeck.com/assets/embed.js"></script>
 ```
 
