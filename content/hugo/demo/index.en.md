@@ -4,7 +4,7 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: aa58be77e55f9125
+rmd_hash: 93cd69a522ace73e
 
 ---
 
@@ -18,7 +18,11 @@ Mostly following [Alison Hill's blogdown tutorial](https://alison.rbind.io/post/
 
 -   [`blogdown::new_site(theme = "apreshill/blogophonic")`](https://rdrr.io/pkg/blogdown/man/hugo_cmd.html)
 
+-   use my Rprofile options from snippets
+
 -   [`blogdown::serve_site()`](https://rdrr.io/pkg/blogdown/man/serve_site.html)
+
+-   look where things live e.g. data/ vs content/.
 
 -   [`blogdown::new_post(title = "Hi Hugo", ext = '.Rmarkdown', subdir = "blog")`](https://rdrr.io/pkg/blogdown/man/hugo_cmd.html)
 

@@ -16,6 +16,8 @@ Mostly following [Alison Hill's blogdown tutorial](https://alison.rbind.io/post/
 
 - `blogdown::new_site(theme = "apreshill/blogophonic")`
 
+- use my Rprofile options from snippets
+
 - `blogdown::serve_site()`
 
 - look where things live e.g. data/ vs content/.
