@@ -4,15 +4,13 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: 93cd69a522ace73e
+rmd_hash: d2476464d8fe10a7
 
 ---
 
 Mostly following [Alison Hill's blogdown tutorial](https://alison.rbind.io/post/new-year-new-blogdown/) but with a different theme by... Alison Hill. :grin:
 
--   install the remotes package, `install.packages("remotes)`
-
--   install the blogdown package [`remotes::install_github("rstudio/blogdown")`](https://remotes.r-lib.org/reference/install_github.html)
+-   install the blogdown package [`install.packages("blogdown")`](https://rdrr.io/r/utils/install.packages.html)
 
 -   create a new empty RStudio project
 

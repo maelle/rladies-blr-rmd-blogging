@@ -8,9 +8,7 @@ output: hugodown::md_document
 
 Mostly following [Alison Hill's blogdown tutorial](https://alison.rbind.io/post/new-year-new-blogdown/) but with a different theme by... Alison Hill. :grin:
 
-- install the remotes package, `install.packages("remotes)`
-
-- install the blogdown package `remotes::install_github("rstudio/blogdown")`
+- install the blogdown package `install.packages("blogdown")`
 
 - create a new empty RStudio project
 
